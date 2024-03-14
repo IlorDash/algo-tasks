@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1672. Richest customer weal
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "383. Ransom Note", "383. Ransom Note\383. Ransom Note.vcxproj", "{78C93789-D3E2-451E-969D-7CD3E1D225B2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "412. Fizz Buzz", "412. Fizz Buzz\412. Fizz Buzz.vcxproj", "{A0A68DA2-F94C-4A78-8E27-C02AD4DF7865}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{78C93789-D3E2-451E-969D-7CD3E1D225B2}.Release|x64.Build.0 = Release|x64
 		{78C93789-D3E2-451E-969D-7CD3E1D225B2}.Release|x86.ActiveCfg = Release|Win32
 		{78C93789-D3E2-451E-969D-7CD3E1D225B2}.Release|x86.Build.0 = Release|Win32
+		{A0A68DA2-F94C-4A78-8E27-C02AD4DF7865}.Debug|x64.ActiveCfg = Debug|x64
+		{A0A68DA2-F94C-4A78-8E27-C02AD4DF7865}.Debug|x64.Build.0 = Debug|x64
+		{A0A68DA2-F94C-4A78-8E27-C02AD4DF7865}.Debug|x86.ActiveCfg = Debug|Win32
+		{A0A68DA2-F94C-4A78-8E27-C02AD4DF7865}.Debug|x86.Build.0 = Debug|Win32
+		{A0A68DA2-F94C-4A78-8E27-C02AD4DF7865}.Release|x64.ActiveCfg = Release|x64
+		{A0A68DA2-F94C-4A78-8E27-C02AD4DF7865}.Release|x64.Build.0 = Release|x64
+		{A0A68DA2-F94C-4A78-8E27-C02AD4DF7865}.Release|x86.ActiveCfg = Release|Win32
+		{A0A68DA2-F94C-4A78-8E27-C02AD4DF7865}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
