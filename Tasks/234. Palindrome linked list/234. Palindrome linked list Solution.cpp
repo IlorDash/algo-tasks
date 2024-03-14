@@ -1,14 +1,14 @@
-#include "234-palindrome-linked-list.h"
+#include "234. Palindrome linked list Solution.h"
 
-bool isPalindrome(struct ListNode *head) {
+bool isPalindrome(struct ListNode* head) {
 	if (head == NULL) {
 		return false;
 	}
 
-	struct ListNode *node = head;
+	struct ListNode* node = head;
 	unsigned short node_len = 0;
 
-	struct ListNode *ptr_arr[100000] = {0};
+	struct ListNode* ptr_arr[100000] = { 0 };
 
 	while (node) {
 		ptr_arr[node_len] = node;

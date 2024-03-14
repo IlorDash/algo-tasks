@@ -1,3 +1,5 @@
+#pragma once
+
 #include <stdbool.h>
 #include <stdlib.h>
 
@@ -7,4 +9,3 @@ struct ListNode {
 };
 
 bool isPalindrome(struct ListNode *head);
-
