@@ -1,0 +1,1 @@
+int* kWeakestRows(int** mat, int matSize, int* matColSize, int k, int* returnSize);
