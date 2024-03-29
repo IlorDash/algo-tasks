@@ -3,6 +3,8 @@
 
 #include "stdlib.h"
 
+#define RECURSIVE false
+
 struct ListNode* recursiveReverse(struct ListNode* prev) {
 	struct ListNode* node = prev->next;
 	struct ListNode* newHead;
@@ -18,11 +20,25 @@ struct ListNode* recursiveReverse(struct ListNode* prev) {
 	return newHead;
 }
 
+struct ListNode* iterativelyReverse(struct ListNode* prev) {
+	struct ListNode* node = prev->next;
+	struct ListNode* nextNode;
+	prev->next = NULL;
+	while (node->next != NULL) {
+		nextNode = node->next;
+		node->next = prev;
+		prev = node;
+		node = nextNode;
+	}
+	node->next = prev;
+	return node;
+}
+
 struct ListNode* reverseList(struct ListNode* head) {
 
 	if ((head == NULL) || (head->next == NULL)) {
 		return head;
 	}
 
-	return recursiveReverse(head);
+	return RECURSIVE ? (recursiveReverse(head)) : iterativelyReverse(head);
 }
