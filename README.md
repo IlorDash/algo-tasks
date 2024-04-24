@@ -1,2 +1,2 @@
-# LeetCode
-My solutions for LeetCode problems
+# Algorithmic tasks
+My solutions for LeetCode and Ya problems
