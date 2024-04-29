@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2744. Find Maximum Number o
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3042. Count Prefix and Suffix Pairs I", "3042. Count Prefix and Suffix Pairs I\3042. Count Prefix and Suffix Pairs I.vcxproj", "{0B80C7EB-7DB0-4277-B90C-22E33FBEA517}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1781. Sum of Beauty of All Substrings", "1781. Sum of Beauty of All Substrings\1781. Sum of Beauty of All Substrings.vcxproj", "{AA09532B-211A-4CF5-8D28-60FA5E5FFA21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{0B80C7EB-7DB0-4277-B90C-22E33FBEA517}.Release|x64.Build.0 = Release|x64
 		{0B80C7EB-7DB0-4277-B90C-22E33FBEA517}.Release|x86.ActiveCfg = Release|Win32
 		{0B80C7EB-7DB0-4277-B90C-22E33FBEA517}.Release|x86.Build.0 = Release|Win32
+		{AA09532B-211A-4CF5-8D28-60FA5E5FFA21}.Debug|x64.ActiveCfg = Debug|x64
+		{AA09532B-211A-4CF5-8D28-60FA5E5FFA21}.Debug|x64.Build.0 = Debug|x64
+		{AA09532B-211A-4CF5-8D28-60FA5E5FFA21}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA09532B-211A-4CF5-8D28-60FA5E5FFA21}.Debug|x86.Build.0 = Debug|Win32
+		{AA09532B-211A-4CF5-8D28-60FA5E5FFA21}.Release|x64.ActiveCfg = Release|x64
+		{AA09532B-211A-4CF5-8D28-60FA5E5FFA21}.Release|x64.Build.0 = Release|x64
+		{AA09532B-211A-4CF5-8D28-60FA5E5FFA21}.Release|x86.ActiveCfg = Release|Win32
+		{AA09532B-211A-4CF5-8D28-60FA5E5FFA21}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
