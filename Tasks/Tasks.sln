@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1054. Distant Barcodes", "1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "706. Design HashMap", "706. Design HashMap\706. Design HashMap.vcxproj", "{213B61C3-B573-4FFA-9947-0C0548BF6916}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "110. Balanced Binary Tree", "110. Balanced Binary Tree\110. Balanced Binary Tree.vcxproj", "{1ED3AC83-126B-4893-90F6-D28347D079CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -181,6 +183,14 @@ Global
 		{213B61C3-B573-4FFA-9947-0C0548BF6916}.Release|x64.Build.0 = Release|x64
 		{213B61C3-B573-4FFA-9947-0C0548BF6916}.Release|x86.ActiveCfg = Release|Win32
 		{213B61C3-B573-4FFA-9947-0C0548BF6916}.Release|x86.Build.0 = Release|Win32
+		{1ED3AC83-126B-4893-90F6-D28347D079CE}.Debug|x64.ActiveCfg = Debug|x64
+		{1ED3AC83-126B-4893-90F6-D28347D079CE}.Debug|x64.Build.0 = Debug|x64
+		{1ED3AC83-126B-4893-90F6-D28347D079CE}.Debug|x86.ActiveCfg = Debug|Win32
+		{1ED3AC83-126B-4893-90F6-D28347D079CE}.Debug|x86.Build.0 = Debug|Win32
+		{1ED3AC83-126B-4893-90F6-D28347D079CE}.Release|x64.ActiveCfg = Release|x64
+		{1ED3AC83-126B-4893-90F6-D28347D079CE}.Release|x64.Build.0 = Release|x64
+		{1ED3AC83-126B-4893-90F6-D28347D079CE}.Release|x86.ActiveCfg = Release|Win32
+		{1ED3AC83-126B-4893-90F6-D28347D079CE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
